@@ -1,5 +1,8 @@
 # 手动添加可复用的工具到这个文件
-# 使用方式：from ..tools import 函数名
+# 使用方式:
+# import sys
+# sys.path.append('..\\tools')
+# import tools as tl
 
 import torch
 import torch.nn as nn
